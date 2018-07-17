@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="54d98c52-2584-4f23-b907-c6f3b133bcbf" name="Default" comment="" />
+=======
+    <list default="true" id="962712c7-ed2e-425f-9492-95acbaca25d4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils/utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/utils.kt" afterDir="false" />
+    </list>
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
@@ -20,10 +28,19 @@
               <folding>
                 <element signature="e#43#90#0" expanded="true" />
               </folding>
+=======
+    <leaf>
+      <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="utils.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/utils/utils.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,12 +55,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+=======
+      <file leaf-file-name="utils.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/utils/utils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,11 +83,15 @@
         <option value="Samuel &lt;samuelchvez@gmail.com&gt;" />
       </list>
     </option>
+=======
+  <component name="Git.Settings">
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/utils.kt" />
         <option value="$PROJECT_DIR$/src/main/utils/utils.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
@@ -78,6 +107,19 @@
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+        <option value="$PROJECT_DIR$/src/main/utils/utils.kt" />
+        <option value="$PROJECT_DIR$/src/main.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="23" />
+    <option name="width" value="1405" />
+    <option name="height" value="820" />
+  </component>
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,7 +128,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+=======
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,6 +166,7 @@
       </option>
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="kotlin-test" />
       <option name="VM_PARAMETERS" value="" />
@@ -139,6 +186,17 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="demo.MainKt" />
       <option name="WORKING_DIRECTORY" value="" />
+=======
+    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -164,7 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Kotlin.demo.MainKt" />
+=======
+        <item itemvalue="Kotlin.main.MainKt" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +235,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="54d98c52-2584-4f23-b907-c6f3b133bcbf" name="Default" comment="" />
       <created>1530362296202</created>
       <option name="number" value="Default" />
@@ -218,11 +281,48 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32921347" />
+=======
+      <changelist id="962712c7-ed2e-425f-9492-95acbaca25d4" name="Default" comment="" />
+      <created>1530809166858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530809166858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.49097222" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3994638" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
@@ -264,11 +364,19 @@
           <folding>
             <element signature="e#43#90#0" expanded="true" />
           </folding>
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/utils/utils.kt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="510">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
@@ -336,6 +444,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+=======
+        <state relative-caret-position="522">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+>>>>>>> d00f46e78652d90d62b77d282228da0bced4ccfc
         </state>
       </provider>
     </entry>
