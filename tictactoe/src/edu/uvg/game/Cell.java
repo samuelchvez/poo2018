@@ -4,9 +4,9 @@ public class Cell {
     private int row = 0;
     private int column = 0;
     private int value = 0;
-    public static int OCCUPIED_BY_X = 1;
-    public static int OCCUPIED_BY_O = -1;
-    public static int NOT_OCCUPIED = 0;
+    public static final int OCCUPIED_BY_X = 1;
+    public static final int OCCUPIED_BY_O = -1;
+    public static final int NOT_OCCUPIED = 0;
 
     public Cell(int row, int column) {
         this.row = row;
@@ -42,5 +42,14 @@ public class Cell {
         }
 
         return false;
+    }
+
+    @Override
+    public String toString() {
+        switch (this.value) {
+            case Cell.OCCUPIED_BY_O: return "O";
+            case Cell.OCCUPIED_BY_X: return "X";
+            default: return ".";
+        }
     }
 }
