@@ -8,7 +8,6 @@ import edu.uvg.wall.Wall;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -74,20 +73,32 @@ public class Main {
         ArrayList<String[]> inputMap = Main.readMap("/Users/samuel/workspace/uvg/poo2018/rurple/map1.txt");
         Map myMap = Main.buildMap(inputMap);
 
-        System.out.println(myMap);
-        myMap.executeAction("MOVE");
-        System.out.println(myMap);
-        myMap.executeAction("PICK");
-        System.out.println(myMap);
-        myMap.executeAction("PICK");
-        System.out.println(myMap);
-        myMap.executeAction("ROTATE");
-        System.out.println(myMap);
-        myMap.executeAction("ROTATE");
-        System.out.println(myMap);
-        myMap.executeAction("ROTATE");
-        System.out.println(myMap);
-        myMap.executeAction("MOVE");
-        System.out.println(myMap);
+        try {
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("MOVE");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("PICK");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("PICK");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("ROTATE");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("ROTATE");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("ROTATE");
+            Thread.sleep(500);
+            System.out.println(myMap);
+            myMap.executeAction("MOVE");
+            Thread.sleep(500);
+            System.out.println(myMap);
+        } catch(InterruptedException ex) {
+
+        }
     }
 }
