@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TicTacToe {
-    Cell[][] board;
-    boolean isPlayersOneTurn;
+    private Cell[][] board;
+    private boolean isPlayersOneTurn;
 
     public TicTacToe() {
         this.board = new Cell[3][3];
@@ -59,6 +59,16 @@ public class TicTacToe {
         return result;
     }
 
+    private boolean checkInSums(int[] sums, int value) {
+        for (int sum : sums) {
+            if (sum == value) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public int checkWinner() {
         Cell[][] reversedBoard = this.reverseBoard();
         int[] sums = new int[8];
@@ -70,10 +80,9 @@ public class TicTacToe {
         sums[6] = this.board[0][0].getValue() + this.board[1][1].getValue() + this.board[2][2].getValue();
         sums[7] = this.board[0][2].getValue() + this.board[1][1].getValue() + this.board[2][0].getValue();
 
-        List sumsList = Arrays.asList(sums);
-        if (sumsList.contains(Cell.OCCUPIED_BY_X * 3)) {
+        if (this.checkInSums(sums, Cell.OCCUPIED_BY_X * 3)) {
             return Cell.OCCUPIED_BY_X;
-        } else if (sumsList.contains(Cell.OCCUPIED_BY_O * 3)) {
+        } else if (this.checkInSums(sums, Cell.OCCUPIED_BY_O * 3)) {
             return Cell.OCCUPIED_BY_O;
         }
 
@@ -90,5 +99,22 @@ public class TicTacToe {
         }
 
         return false;
+    }
+
+    public boolean hasWinner() {
+        return this.checkWinner() != Cell.NOT_OCCUPIED;
+    }
+
+    @Override
+    public String toString() {
+        String result = "Turno: " + (this.isPlayersOneTurn ? 'X' : 'O') + "\n";
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
+                result += this.board[i][j];
+            }
+            result += "\n";
+        }
+
+        return result;
     }
 }
