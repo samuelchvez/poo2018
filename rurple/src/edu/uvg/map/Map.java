@@ -64,7 +64,7 @@ public class Map {
         return null;
     }
 
-    public boolean hasCoin(int x, int y) {
+    private boolean hasCoin(int x, int y) {
         return this.getCoinsAt(x, y) != null;
     }
 

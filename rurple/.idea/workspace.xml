@@ -12,14 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uvg/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+            <state relative-caret-position="-283">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#212#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,31 +30,17 @@
             <state relative-caret-position="242">
               <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PileOfCoins.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PileOfCoins.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/uvg/coins/PileOfCoins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="300">
               <caret line="25" column="29" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -63,13 +48,11 @@
       <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uvg/robot/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="154">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,24 +61,12 @@
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uvg/map/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+            <state relative-caret-position="2766">
+              <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,14 +81,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hasCoin</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/uvg/wall/Wall.java" />
         <option value="$PROJECT_DIR$/src/edu/uvg/coins/PileOfCoins.java" />
-        <option value="$PROJECT_DIR$/src/edu/uvg/map/Map.java" />
         <option value="$PROJECT_DIR$/src/edu/uvg/robot/Robot.java" />
         <option value="$PROJECT_DIR$/src/edu/uvg/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/uvg/map/Map.java" />
       </list>
     </option>
   </component>
@@ -131,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +157,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -228,54 +204,40 @@
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25871313" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Designer" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25871313" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10069445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/uvg/map/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+        <state relative-caret-position="1760">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -285,53 +247,88 @@
         <state relative-caret-position="242">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uvg/coins/PileOfCoins.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="418">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uvg/robot/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="1056">
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/wall/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uvg/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        <state relative-caret-position="-283">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#212#222#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2766">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uvg/coins/PileOfCoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
