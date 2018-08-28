@@ -1,4 +1,10 @@
 package main
+/*
+* Universidad del Valle de Guatemala
+* Programacion Orientada a Objetos
+* CC2008 - Seccion 30
+* */
+
 
 import main.utils.*
 

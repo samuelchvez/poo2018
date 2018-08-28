@@ -1,10 +1,17 @@
 package main
+/*
+* Universidad del Valle de Guatemala
+* Programacion Orientada a Objetos
+* CC2008 - Seccion 30
+* */
 
+//se importan las otras clases que se utilizaran
 import school.School
 import structure.Stage
 import structure.Level
 import students.Student
 
+//funcion menu
 fun menu(): String {
     return """
         MENU:
@@ -17,15 +24,18 @@ fun menu(): String {
     """.trimIndent()
 }
 
-
+//Main, aca se inicia el la ejecucion del programa
 fun main(args: Array<String>) {
+    //bandera que nos indica si se desea continuar
     var wantsToContinue = true
+    //se crea el objeto tipo School
     val school = School("Mi Colegio")
+// muestra el menu
     do {
         println(menu())
         print("Ingrese una opcion del menu (1 - 6): ")
         val option = readLine()!!.toInt()
-
+        // evalua la accion de la a realizar segun la opcion ingresada
         when (option) {
             1 -> {
                 print("Ingrese el nombre del nuevo nivel: ")
@@ -99,7 +109,7 @@ fun main(args: Array<String>) {
             5 -> {
                 print("Ingrese el nombre del nivel: ")
                 val stageName = readLine()!!
-
+                //verifica que exista
                 val stage = school.findStage(stageName)
                 if (stage != null) {
                     print("Ingrese el nombre del grado: ")
@@ -115,10 +125,11 @@ fun main(args: Array<String>) {
                     println("El nivel $stageName no existe")
                 }
             }
+            // termina el programa
             6 -> {
                 wantsToContinue = false
             }
         }
-
+// mientras la bandera sea verdadera se repetira lo anterior
     } while (wantsToContinue)
 }

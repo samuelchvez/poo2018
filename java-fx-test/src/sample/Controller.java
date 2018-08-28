@@ -1,4 +1,9 @@
 package sample;
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,6 +23,7 @@ import javafx.event.ActionEvent;
 import java.io.IOException;
 
 public class Controller {
+    // elementos de nuestra apliaccion de JavaFX
     @FXML
     TableView<Person> peopleTable;
 
@@ -26,10 +32,11 @@ public class Controller {
 
     @FXML
     TableColumn lastNameCol;
-
+// inico de la apliacion
     @FXML
     public void initialize() {
 
+        // rellenando de perosnas las lista
         ObservableList<Person> data = FXCollections.observableArrayList(
                 new Person("Jacob", "Smith"),
                 new Person("Isabella", "Johnson"),

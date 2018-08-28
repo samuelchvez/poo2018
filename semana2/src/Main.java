@@ -1,6 +1,11 @@
 import java.util.Scanner;
-
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
 public class Main {
+    // funcion que muestra el menu
     public static String getMenu(boolean isTurnedOn) {
         if (!isTurnedOn) {
             return "Menu:\n" +
@@ -17,7 +22,7 @@ public class Main {
                 "\t6. Cambiar frecuencia\n" +
                 "\t7. Salir\n";
     }
-
+// aqui inica el programa
     public static void main (String[] args) {
         boolean wantsToContinue = true;
         Radio myRadio = new Radio();
@@ -33,7 +38,7 @@ public class Main {
             System.out.print("Ingrese una opcion: ");
             Scanner input = new Scanner(System.in);
             int option = input.nextInt();
-
+// hace un accion segun lo ingresado
             if (myRadio.isTurnedOn()) {
                 switch(option) {
                     case 1:
