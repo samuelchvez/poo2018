@@ -1,4 +1,9 @@
 package sample;
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,6 +13,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    // crea la ventana de nuestra aplicacion
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
@@ -16,7 +22,7 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+// inicio del programa.
     public static void main(String[] args) {
         launch(args);
     }

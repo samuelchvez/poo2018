@@ -1,11 +1,19 @@
 package bikes;
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
 
 public class Bike {
+    // atributos
     private String brand;
     private String color;
     private int speed;
-
+// constructores, cada constructor tiene una firma distinta
+// a esto se le conoce como sobrecarga de metodos
     public Bike() {
+        //valores predetetminados
         this.speed = 0;
         this.brand = "";
         this.color = "gray";
@@ -21,7 +29,7 @@ public class Bike {
         this.brand = brand;
         this.color = color;
     }
-
+// setters y getters
     public String getBrand() {
         return brand;
     }
@@ -37,11 +45,11 @@ public class Bike {
     public void setColor(String color) {
         this.color = color;
     }
-
+// metodo que incrementa en 1 la aceleracion
     public void accelerate() {
         this.speed += 1;
     }
-
+// metodo que coloca la aceleracion en un valor indicadoi
     public void accelerate(int acceleration) {
         this.speed += acceleration;
     }

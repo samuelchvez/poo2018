@@ -1,6 +1,12 @@
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
+// importamos nuestras clases
 import lists.TaskList
 import tasks.Task
-
+// menu
 fun getMenu(hasLists: Boolean, hasSelectedList: Boolean): String {
     if (!hasLists) {
         return """
@@ -29,11 +35,12 @@ fun getMenu(hasLists: Boolean, hasSelectedList: Boolean): String {
     """.trimIndent()
 }
 
+// aqui inicia la ejecucion
 fun main(args: Array<String>) {
     var taskLists = ArrayList<TaskList>()
     var currentList: TaskList? = null
     var wantsToContinue = true
-
+// ciclo principal, segun la opcion ingresada realiza un accion
     do {
         val hasLists = !taskLists.isEmpty()
 

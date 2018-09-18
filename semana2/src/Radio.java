@@ -1,4 +1,11 @@
+/*
+ * Universidad del Valle de Guatemala
+ * Programacion Orientada a Objetos
+ * CC2008 - Seccion 30
+ * */
+
 public class Radio {
+    //atributos
     private boolean isTurnedOn = false;
     private boolean isInFM = false;
     private int volume = 0;
@@ -30,7 +37,7 @@ public class Radio {
     public boolean isInFM() {
         return this.isInFM;
     }
-
+// selecciona la frrecuencia
     public void changeToFM() {
         this.isInFM = true;
         this.station = FM_MIN_STATION;
@@ -44,14 +51,14 @@ public class Radio {
     public int getVolume() {
         return this.volume;
     }
-
+// sube el volumen
     public void volumeUp() {
         this.volume = Math.min(
             this.volume + VOLUME_INCREMENT,
             MAX_VOLUME
         );
     }
-
+// baja el volumen
     public void volumeDown() {
         this.volume = Math.max(
             this.volume - VOLUME_INCREMENT,
@@ -62,7 +69,7 @@ public class Radio {
     public double getStation() {
         return this.station;
     }
-
+// aumenta la estacion
     public void stationUp() {
         if (this.isInFM) {
             this.station += FM_STATION_INCREMENT;
@@ -76,7 +83,7 @@ public class Radio {
             }
         }
     }
-
+// disminuye la estacion
     public void stationDown() {
         if (this.isInFM) {
             this.station -= FM_STATION_INCREMENT;
