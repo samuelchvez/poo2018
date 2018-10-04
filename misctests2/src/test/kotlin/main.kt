@@ -10,10 +10,9 @@ import org.jetbrains.exposed.sql.transactions.transaction
 fun main(args: Array<String>) {
     val url = "https://next.json-generator.com/api/json/get/EkCmEaBtB"
 
-    Fuel.get(url).responseObject(Person.PersonArrayDeserializer()) { request, response, result ->
-        val (persons, err) = result
-        persons?.forEach { println(it) }
-    }
+    val (request, response, result) = Fuel.get(url).responseObject(Person.PersonArrayDeserializer())
+    val (persons, err) = result
+    persons?.forEach { println(it) }
 
     Database.connect(
             "jdbc:postgresql:misctests",
