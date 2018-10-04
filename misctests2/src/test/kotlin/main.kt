@@ -40,6 +40,15 @@ fun main(args: Array<String>) {
         for (book in Books.selectAll()) {
             println("${book[Books.id]}: ${book[Books.title]}")
         }
+
+        /**
+         *
+         * val busqueda = readLine()!!
+         * for (song in Songs.select { Song.songName.like("%${busqueda}%") }) {
+         *  // Aca ya son solo los que tienen la palabra que buscaron
+         * }
+         *
+         */
     }
 
     Thread.sleep(5000)
