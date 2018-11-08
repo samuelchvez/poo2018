@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.light {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  transition: 0.25s;
+}
+
+.light.off {
+  background: #333;
+}
+
+.light.on {
+  background: yellow;
+  transform: scale(1.1);
+}
